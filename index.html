@@ -1,0 +1,170 @@
+<!DOCTYPE html><html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nature Cosmetics</title>
+  <style>
+    :root {
+      --pink: #f7c6d9;
+      --green: #8ccf9b;
+      --dark: #2f4f3e;
+      --light: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fffafc;
+      color: var(--dark);
+    }
+    header {
+      background: linear-gradient(120deg, var(--pink), var(--green));
+      padding: 80px 20px;
+      text-align: center;
+      color: var(--dark);
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    nav {
+      background: var(--light);
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--dark);
+      font-weight: 600;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .about {
+      background: #f2fbf5;
+      border-radius: 20px;
+      padding: 40px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: var(--light);
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.07);
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+    .card h3 { margin: 10px 0; }
+    .consultants {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .consultant {
+      background: #fff;
+      border-radius: 15px;
+      padding: 20px;
+      border: 2px solid var(--green);
+      text-align: center;
+    }
+    footer {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+  </style>
+</head>
+<body>  <header id="home">
+    <h1>Nature Cosmetics</h1>
+    <p>Натуральная косметика для здоровья и красоты вашей кожи 🌿</p>
+  </header>  <nav>
+    <a href="#home">Главная</a>
+    <a href="#about">Состав</a>
+    <a href="#products">Продукты</a>
+    <a href="#consultants">Консультанты</a>
+    <a href="#contacts">Контакты</a>
+  </nav>  <section id="about">
+    <h2>Почему Nature Cosmetics?</h2>
+    <div class="about">
+      <p>
+        Вся наша косметика создана на основе натуральных компонентов: 
+        растительных масел, экстрактов трав, витаминов и минералов.
+        Мы не используем парабены, сульфаты и агрессивные химические добавки.
+      </p>
+      <ul>
+        <li>🌸 Подходит для чувствительной кожи</li>
+        <li>🌿 Экологичный и безопасный состав</li>
+        <li>🐰 Не тестируется на животных</li>
+      </ul>
+    </div>
+  </section>  <section id="products">
+    <h2>Наши продукты</h2>
+    <div class="products">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200?text=Крем+для+лица" alt="Крем">
+        <h3>Крем для лица</h3>
+        <p>Увлажнение и питание на весь день</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200?text=Сыворотка" alt="Сыворотка">
+        <h3>Сыворотка</h3>
+        <p>Восстановление и сияние кожи</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200?text=Маска" alt="Маска">
+        <h3>Маска для лица</h3>
+        <p>Глубокое очищение и уход</p>
+      </div>
+    </div>
+  </section>  <section id="consultants">
+    <h2>Наши консультанты</h2>
+    <div class="consultants">
+      <div class="consultant">
+        <h3>Анна</h3>
+        <p>📞 +996 700 000 001</p>
+      </div>
+      <div class="consultant">
+        <h3>Айдана</h3>
+        <p>📞 +996 700 000 002</p>
+      </div>
+      <div class="consultant">
+        <h3>Мария</h3>
+        <p>📞 +996 700 000 003</p>
+      </div>
+    </div>
+  </section>  <section id="contacts">
+    <h2>Контакты</h2>
+    <p style="text-align:center;">
+      📍 Кыргызстан<br />
+      📧 naturecosmetics@email.com<br />
+      📱 Instagram: @nature.cosmetics
+    </p>
+  </section>  <footer>
+    <p>© 2026 Nature Cosmetics. Все права защищены.</p>
+  </footer></body>
+</html>
